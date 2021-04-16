@@ -11,6 +11,7 @@ import {HttpClientModule} from '@angular/common/http';
 import { BooksComponent } from './component/books/books.component';
 import { CharactersComponent } from './component/characters/characters.component';
 import { HousesComponent } from './component/houses/houses.component';
+import { ObservComponent } from './components/observ/observ.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HousesComponent } from './component/houses/houses.component';
     TestComponent,
     BooksComponent,
     CharactersComponent,
-    HousesComponent
+    HousesComponent,
+    ObservComponent
   ],
   imports: [
     BrowserModule,

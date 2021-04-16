@@ -11,7 +11,7 @@ export class BooksComponent implements OnInit {
   
   IceFire:any;
   ngOnInit(): void {
-    this.books.getIce("books").subscribe((data)=>{
+    this.books.getIce("books").subscribe((data: any)=>{
       this.IceFire = data;
   })
 
