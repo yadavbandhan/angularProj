@@ -12,6 +12,8 @@ import { BooksComponent } from './component/books/books.component';
 import { CharactersComponent } from './component/characters/characters.component';
 import { HousesComponent } from './component/houses/houses.component';
 import { ObservComponent } from './components/observ/observ.component';
+import { ParentComponent } from './IO/parent/parent.component';
+import { ChildComponent } from './IO/child/child.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { ObservComponent } from './components/observ/observ.component';
     BooksComponent,
     CharactersComponent,
     HousesComponent,
-    ObservComponent
+    ObservComponent,
+    ParentComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,

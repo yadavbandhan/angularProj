@@ -1,0 +1,14 @@
+<h1>Parent Component</h1>
+
+<!-- <input type="text" [(ngModel)]="parentData">
+<input type="button" value="send" (click)="TransferData()"> -->
+
+{{value}}
+
+<hr>
+
+<!-- <app-child [Data]="parentData"></app-child> -->
+
+<button (click) = "LOG($event)">log event</button>
+<input type="text" (keyup) = LOG($event)>
+<app-child (sendData)="sendData($event)"></app-child>
